@@ -1,8 +1,13 @@
+![Bellabeat Logo](/Visuals/BellabeatHeader.png)
+
 # Bellabeat Fitness Tracker Case Study
 
 By Zach Richardson
 
-Last Updated: 8/14/2023
+Last Updated: 9/8/2023
+
+The following project was completed as my capstone for the [Google Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics?action=enroll&aid=true#courses) and follows the Data Analytics Life Cycle of Ask, Prepare, Process, Analyze, Share, and Act to perform a thorough cleaning, analysis, and presentation of the data provided. 
+
 
 ## ASK
 
@@ -607,7 +612,7 @@ Upon exploring the relationship between sleep and exercise, I plotted total acti
 
 #### Presentation
 * [Slideshow for Stakeholders](https://docs.google.com/presentation/d/e/2PACX-1vSVtfEIwZ1bRYtVjbWkaxzdDfDcwglcYsHPVR7UIMH3YxmMIG1aWxeCwHA43Eaehuj6Q7x8zi7fCrly/pub?start=false&loop=false&delayms=30000) 
-* [Tableau Data Dashboard](https://public.tableau.com/app/profile/zachary.richardson3402/viz/Bellabeat_16915270965610/HourlySteps?publish=yes)
+* [Tableau Data Dashboard](https://public.tableau.com/app/profile/zachary.richardson3402/viz/Bellabeat_16915270965610/BellabeatDashboard)
 
 
 
