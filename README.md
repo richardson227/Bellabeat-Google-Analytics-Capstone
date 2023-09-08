@@ -360,7 +360,7 @@ Wednesday		8157.597122
 Friday			7820.641667
 Sunday			7626.554545
 ~~~
-![](../Downloads/StepsDoW.png)
+![](Visuals/StepsDoW.png)
 
 ###### Average Active Minutes
 Next I looked at the average daily activity intensity value. I found that this followed a similar pattern to steps taken, with  activity peaking on Saturday and Tuesday, and falling on Sunday.
@@ -390,7 +390,7 @@ Wednesday	300.4244604
 Thursday	295.7293233
 Sunday		289.2818182
 ~~~
-![](../Downloads/DailyIntensity.png)
+![](/Visuals/DailyIntensity.png)
 
 ###### Average Calories Burned
 
@@ -420,7 +420,7 @@ Sunday		2310.927273
 Thursday	2274.43609
 ~~~
 
-![](../Downloads/CaloriesDoW.png)
+![](Visuals/CaloriesDoW.png)
 
 #### Activity Patterns by Hour of the Day
 ###### Average Steps Taken
@@ -452,7 +452,7 @@ hour		avg_steps
 11:00:00	494.2053676
 9:00:00		469.0744186
 ~~~
-![](../Downloads/HourlySteps.png)
+![](Visuals/Average%20Hourly%20Steps%20Taken-2.png)
 
 ###### Average Hourly Activity Intensity
 Using the hourly_intensity table, I found the average activity intensity for each hour of the day, and found that the same timeframes as above had the highest average intensity. 
@@ -485,7 +485,7 @@ hour		avg_intensity
 11:00:00	18.3033839
 15:00:00	16.87573964
 ~~~
-![](../Downloads/HourlyIntensity.png)
+![](Visuals/HourlyIntensity.png)
 
 ###### Average Calories Burned
 Finally, I took the average number of calories burned for each hour of the day and again found the timeframes of 12-3pm and 5-8pm to have the highest values.
@@ -517,7 +517,7 @@ hour		avg_calories
 11:00:00	112.6032672
 15:00:00	109.2106509
 ~~~
-![](../Downloads/HourlyCalories.png)
+![](Visuals/HourlyCalories.png)
 
 #### Device Usage
 In order to find how often people are using their device, I found the number of records in the daily_activity master table and grouped by day of the week. I found that users were more likely to record their activity mid-week than close to the weekend.
@@ -545,7 +545,7 @@ Sunday		110
 Monday		110
 ~~~
 
-![](../Downloads/DaysLogged.png)
+![](Visuals/DaysLogged.png)
 
 #### Active States
 
@@ -583,12 +583,12 @@ FROM
 VeryActive		FairlyActive		LightlyActive		Sedentary
 27.53639262		17.67780397			251.2740885			1143.511715
 ~~~
-![](../Downloads/ActivityStates.png)
+![](Visuals/ActivityStates.png)
 
 #### Sleep and Exercise
 Upon exploring the relationship between sleep and exercise, I plotted total active minutes, total steps, and calories burned against time asleep, and found no significant correlations. The Tableau calculated correlation coeffecients are as follows - Calories Burned: -0.05, Total Steps: -0.14, Active Minutes: -0.04. Getting more sleep does not seem to have any noticeable effect on the amount of exercise users are getting.
 
-![Correlation Chart](../Downloads/CorrelationChart.png)
+![Correlation Chart](Visuals/CorrelationChart.png)
 <br><br>
 ## Share
 #### Conclusions
